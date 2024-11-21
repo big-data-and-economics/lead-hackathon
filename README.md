@@ -45,6 +45,14 @@ These data are sensitive and should be used with care. They were the product of 
 
 I will provide starter code in a few places.
 
+## Useful links
+
+https://www.greenandhealthyhomes.org/publication/return-on-investment-calculator-for-lead-poisoning-prevention/
+
+https://www.epa.gov/newsreleases/epa-strengthens-standards-protect-children-exposure-lead-paint-dust
+
+https://data.mainepublichealth.gov/tracking/lead
+
 ## Teams
 
 You can pick your own teams. You can work altogether or in separate groups. 

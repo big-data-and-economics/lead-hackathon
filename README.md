@@ -1,3 +1,7 @@
+# Work in progress
+
+I will be updating this continuously through the start of the hackathon.
+
 # Lewiston Hack-a-thon
 
 In this hack-a-thon, you will be working with a team to determine whether Lewiston has targeted its Lead Abatement appropriately. There are many academic papers for you to consider in this space. 

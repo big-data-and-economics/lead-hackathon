@@ -10,6 +10,19 @@ The hacakthon will be held Chase and Harward Halls It is reserved under ECON Hac
 
 You will have access to Chase and the Harward Center to work as a team. It will be open from Tuesday at 8am-11pm and Wednesday at 8am-11pm. I do not expect you to work for the entire duration, but the space is there for you to collaborate on the project. Food will be provided in one of these spaces for everyone to eat meals. Meal times to come. 
 
+## Deliverables
+
+You will be expected to provide a report to the City of Lewiston that includes the following:
+
+- Discussion of literature around lead poisoning abatement effects
+- Mapping of where lead abatement has occurred as well as indicators of at-risk areas for lead poisoning
+- Analytically assess whether voluntary participation in lead abatement has led to lead abatement helping those who will benefit most
+- Preliminary cost-benefit analysis OR a discussion of how to do future cost-benefit analysis to evaluate this program
+- Any other visualizations or regression analysis you think will be valuable
+- Recommendations for new locations to target in the future and ways to use data to answer questions about lead abatement
+
+On Thursday, you will present these deliverables in slides. (You can use Rmarkdown or an alternative presentation method if you find that easier.) A week after the hackathon, you will turn in a written summary of your work to me and the City of Lewiston. (This gives an opportunity to clean up your work.)
+
 ## Literature
 
 The literature folder contains a number of papers (not exhaustive) that discuss the relationship between streetlights and crime. Use these to get started thinking about the problem. 
@@ -27,15 +40,6 @@ These data are sensitive and should be used with care. They were the product of 
 ## Code
 
 I will provide starter code in a few places.
-
-## Deliverables
-
-You will be expected to provide a report to the City of Lewiston that includes the following:
-- Mapping of where lead abatement has occurred as well as indicators of at-risk areas for lead poisoning
-- Analytically assess whether voluntary participation in lead abatement has led to lead abatement helping those who will benefit most
-- Preliminary cost-benefit analysis OR a discussion of how to do future cost-benefit analysis to evaluate this program
-- Any other visualizations or regression analysis you think will be valuable
-- Recommendations for new locations to target in the future and ways to use data to answer questions about lead abatement
 
 ## Teams
 

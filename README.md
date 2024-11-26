@@ -49,10 +49,11 @@ The hackathon is worth 30% of your final grade. The grading will be out of 100 a
 | Analysis | 15 | Use appropriate analytical approaches to evaluate the data |
 | Presentation  | 10 | Clearly express your analytical approaches and findings to be understood by an informed, lay audience |
 | Paper summary | 10 | A 1-2 page summary of your findings and recommendations due a week after the hackathon |
-| Replicability | 20 | All code needed to replicate your work should be in your repository with a README explaining how to replicate your work |
+| Replicability | 15 | All code needed to replicate your work should be in your repository with a README explaining how to replicate your work |
 | Creativity | 10 | Creative solutions to the problem at hand |
 | Limitations | 5 | A discussion of the limitations of your analysis |
 | Recommendations | 5 | Recommendations for future research, data collection, and ways to improve lead abatement |
+| Group coevaluations | 5 | Evaluation of your group members and yourself |
 
 ### Introduction
 
@@ -78,6 +79,8 @@ Your presentation should be clear and concise. You should be able to explain you
 
 Everyone should participate in the presentation and you should be prepared to answer questions about your work.
 
+Critically: you should not just read off of your slides. You should use slides to provide visual aids and short key points that you can expand upon. If you are reading off of your slides throughout the presentation, you are not presenting effectively. You will likely lose your audience and your grade will reflect that.
+
 ### Paper Summary
 
 After the hackathon, you will have a week to organize your work into a 1-2 page summary of your findings and recommendations. This should be written in a way that is accessible to a lay audience and should be free of jargon.
@@ -98,13 +101,13 @@ There will be limitations to your work and you should be upfront about them. Thi
 
 You should give clear recommendations to the city related to your project. Give some concise explanations of the take aways from your analysis and what the city should do next. This could include recommendations for future research, data collection, and ways to improve lead abatement.
 
-## Group co-evaluation
+### Group co-evaluation
 
-After you submit everything, I will ask you all to provide an evaluation of the members of your group, including yourself. This will help me to understand how you all worked together and how you all contributed to the project. 
+After you submit everything, I will ask you all to provide an evaluation of the members of your group, including yourself. This will help me to understand how you all worked together and how you all contributed to the project. You are not formally grading one another, but giving a numeric and verbal evaluation of how you all worked together on the components of the project. 
 
 I ask that you fill the form out for each member of your group. (Sadly, Google does not have dynamic forms that allow me to do this for you, so you will need to fill it out for each member of your group.)
 
-### Example
+#### Example
 
 For each group member do the following starting with yourself and then moving to the next group member:
 

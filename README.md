@@ -14,9 +14,9 @@ Each group will have a private space to work on the hackathon.
 
 ### Rooms
 
-Group 1: Chase 217
-Group 2: Chase 219
-Group 3: Chase 115
+- Group 1: Chase 217
+- Group 2: Chase 219
+- Group 3: Chase 115
 
 ### Meal times
 

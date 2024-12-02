@@ -18,6 +18,21 @@ Group 1: Chase 217
 Group 2: Chase 219
 Group 3: Chase 115
 
+### Meal times
+
+| Day | Time    | Restaurant |
+|-----|---------|------------|
+| Tues| 12pm    | Otto's     |
+| Tues| 5:45pm  | Mother India |
+| Wed | 8:45am  | Forage (coffee too!)     |
+| Wed | 12pm    | Pure Thai    |
+| Wed | 6pm     | Pocho's      |
+| Thurs| 9:30am | Pastries in class    |
+
+Meals will be served in Chase Hall 115. Please attend common mealtimes as these will be my best chance to answer questions and make general announcements as needed. 
+
+Note that all dietary restrictions (lactose-free, etc.) have been accounted for in the restaurant orders.
+
 ## Expectations
 
 I expect your group to work as a team to ensure that you deliver a meaningful product by the end of the hackathon. I do not expect you to work for the entire duration, but to work with your groupmates to ensure that you are making progress.

@@ -106,7 +106,12 @@ Please be sure that a PDF of the paper summary is in your repository.
 
 ### Replicability
 
-Replicability is at the heart of this course. Any code you write and work you do should be replicable by others. You should provide all code and data necessary to replicate your work in your repository. You should also provide a README that explains how to replicate your work. The README should be clear and concise and should be written as if you are explaining to someone who has never seen your work before, but knows the basics of running code in R.
+Replicability is at the heart of this course. Any code you write and work you do should be replicable by others. You should provide all code and data necessary to replicate your work in your repository. You should also edit this README so that it explains how to replicate your work. The README should be clear and concise and should be written as if you are explaining to someone who has never seen your work before, but knows the basics of running code in R.
+
+Here is some advice on writing a README:
+
+- [About READMEs by GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [Short Datacamp video with downloadable slides](https://campus.datacamp.com/courses/github-concepts/introduction-to-github?ex=9)
 
 ### Creativity
 

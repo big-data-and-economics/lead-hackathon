@@ -2,6 +2,17 @@
 
 In this hack-a-thon, you will be working with a team to determine whether Lewiston has targeted its Lead Abatement appropriately. We have worked a bit on the incidence of Lead throughout the semester. Feel free to pull from our discussions of this work throughout the semester to contribute to your work. 
 
+Furthermore, you may seek to bring in datasets beyond what I have provided in this repository. If so, that is a great idea! Many other datasets could prove useful and your are encouraged to acquire these data. 
+
+## Problem Statement
+
+We have learned a great deal about the commitments Lewiston has made to abate lead in the city. We have also learned that there is a high incidence of lead poisoning within the city and that this is a problem that disproportionately affects low-income families. In this hackathon, you will: 
+
+1. Work to evaluate what areas have received lead abatement and whether this has been targeted to the areas with the greatest need for abatement. Furthermore, 
+2. Make recommendations on how to evaluate lead abatement -- and if possible do a baseline evaluation of the effectiveness of lead abatement in Lewiston. 
+
+The first goal will require you to make some judgment calls on how you present and summarize the data you have. The second goal may not be possible to achieve with the data you have, but you can still make recommendations on how to do this in the future. If you find a way to evaluate the effectiveness of lead abatement in Lewiston analytically with the data available, please do so and intuitively explanation your work. It will be a great contribution to the city. 
+
 ## Getting Started 
 
 Each group will receive a unique copy of this repository to work on. The repository is hosted within the course organization. You will need to clone this repository to your local machines and then push-pull as usual. 
@@ -36,6 +47,105 @@ Each group will have a private space to work on the hackathon.
 Meals will be served in Chase Hall 115. Please attend common mealtimes as these will be my best chance to answer questions and make general announcements as needed. 
 
 Note that all dietary restrictions (lactose-free, etc.) have been accounted for in the restaurant orders.
+
+## Provided materials
+
+I provide a variety of materials. They are organized in the folders provided. 
+
+First, `housekeeping.R` will load all the packages you need to get started.
+
+- `data` contains the data you will be working with
+    - `raw` contains the raw data you will be working with
+    - `work` is where you put the working data
+- `code` contains code that may be useful for your work
+    - `build` contains code that may be useful for building the data
+    - `analysis` is for code that may be useful for analyzing the data
+- `documentation` is for documentation that may be useful for your work besides this README
+- `literature` contains papers that may be useful for your work
+- `output` is where you can put output files that you generate
+
+Feel free to make any additional folders you need to organize your work. At the end of the project, be sure to organize the repository so that it is clear where everything is.
+
+I further explain the materials below.
+
+### The Data
+
+In the folder `data/raw`, I have pushed three .xlsx files that contain data on lead abatement in Lewiston. 
+
+1. `Auburn-Lewiston - block group Poisoning-Screening - export 10-25-2024.xlsx`
+
+This file is downloaded from the [Maine Tracking Network](https://data.mainepublichealth.gov/tracking/lead) dashboard. It includes data on the number of children screened for lead poisoning in Lewiston and Auburn at the census block group level. Any blocks with fewer than five children that test positive for lead poisoning are represented as 1-5 children. 
+
+The column `Lead Poisoning` is the number of children who tested positive for lead poisoning in the block. The column `Testing (Calendar Year)` is the number of children tested for lead poisoning in the block. 
+
+Location identifies the Census Block group. Year shows the years covered in the data pulled from the 5-year American Community Surveys from 2008-2012, 2013-2017, and 2018-2022. 
+
+2. `Auburn-Lewiston - block group Risk Factors - export 10-25-2024.xlsx`
+
+This file is downloaded from the [Maine Tracking Network](https://data.mainepublichealth.gov/tracking/lead) dashboard. It includes data on various risk factors associated with lead poisoning aggregated to the census block group level from 2016-2020. These variables include:
+
+- The number of families living in poverty
+- The number of families with children living in poverty
+- The amount of pre-1950s housing
+- The amount of owner occuped pre-1950s housing
+- The amount of renter occupied pre-1950s housing
+
+For each variable the `Number` column is the number of families or housing units that meet the criteria and the `Percent` column is the percentage of families or housing units that meet the criteria within the census block group. `Total Families` or `Total Occupied Units`, respectively, is the total number of families or housing units in the block.
+
+3. `LeadAbatementSummaryLewiston2002-2024.xlsx`
+
+The data are taken from Central Maine Tracking and are census block group-level data. There are also data provided by the City of Lewiston which contain the addresses of homes that have participated in lead abatement. 
+
+The data contains two sheets: `ABATEMENT SUMMARY` and `Pre-1978 Housing-Assessor Rec`. `ABATEMENT SUMMARY` is a summary of where abatement occurred. `Pre-1978 Housing-Assessor Rec` is information on the assessment of pre-1978 housing in Lewiston and other cities. 
+
+The columns in `ABATEMENT SUMMARY` are as follows:
+
+- `Abatement Projects`: The number of lead abatement projects at the address
+- `Lewiston Address`: The address of the lead abatement project
+- `Year Built`: The year the address was build
+- `Housing Units`: The number of housing units at the address
+- `L-A Grant`: If funded by the Lewiston Auburn Grant
+- `Lead Hazards Cleared`: The year the lead hazards were cleared
+- `Units Impacted 2x or more`: The units that 
+
+The columns in `Pre-1978 Housing-Assessor Rec` are as follows:
+
+- `Parcel ID` - The parcel ID of the address
+- `#` - The house number
+- `Property Location` - The street of the property
+- `Year Built` - The year the property was built
+- `Living Units` - The number of living units in the property
+- `Land Use Code With Description` - The land use code and description of the property
+- `Lot Size in Acres` - How big is the property
+- `Owner 1` and `Owner 2` - The owners of the property
+- `Mailing Address 1` - The mailing address of the property (often the same as the location)
+- `Mailing Address 2` - Secondary information on the mailing address (i.e. an apartment number)
+- `City` - The city of the property (mostly Lewiston)
+- `State` - The state of the property (ME)
+- `Zip Code` - The zip code of the property (mostly 04240)
+- `Land` - The assessed value of the land
+- `Building` - The assessed value of the building
+- `Total Assessment` - The total assessed value of the property
+
+There is other valuable information within this spreadsheet. 
+
+### Code
+
+To match the lead abatement addresses to the census block group data, you will need to geocode the addresses to blocks. I have provided a script to do this in the `code` folder called `geocode_lead_addresses.R`. This script uses the `tidygeocoder` package to geocode the addresses and requires a Census API key. You can get a Census API key [here](https://api.census.gov/data/key_signup.html) if you have not already! 
+
+_Note: Census block groups are smaller than Census tracts, but larger than census blocks._
+
+### Sensitive
+
+These data are sensitive and should be used with care. They are the product of a public records requests. Still, I discourage you from using these data to identify individuals or to make any claims about individuals.
+
+### Useful links
+
+- https://www.greenandhealthyhomes.org/publication/return-on-investment-calculator-for-lead-poisoning-prevention/
+
+- https://www.epa.gov/newsreleases/epa-strengthens-standards-protect-children-exposure-lead-paint-dust
+
+- https://data.mainepublichealth.gov/tracking/lead
 
 ## Expectations
 
@@ -143,28 +253,6 @@ For each group member do the following starting with yourself and then moving to
 2. Fill out the form indicating the group member's name and contributions to the project components above
 3. Click submit
 4. Repeat for the next group member
-
-## The Data
-
-The data are taken from Central Maine Tracking and are Census Block-level data. There are also data provided by the City of Lewiston which contain the addresses of homes that have participated in lead abatement. 
-
-### Code
-
-To match the lead abatement addresses to the Census Block data, you will need to geocode the addresses to blocks. I have provided a script to do this in the `code` folder called `geocode_lead_addresses.R`. This script uses the `tidygeocoder` package to geocode the addresses and requires a Census API key. You can get a Census API key [here](https://api.census.gov/data/key_signup.html) if you have not already! 
-
-_Note: Census Blocks are smaller than Census tracts._
-
-#### Sensitive
-
-These data are sensitive and should be used with care. They were the product of a public records request and are redacted to protect the privacy of the individuals involved. Still, I discourage you from sharing the raw data with anyone outside of the hackathon.
-
-## Useful links
-
-- https://www.greenandhealthyhomes.org/publication/return-on-investment-calculator-for-lead-poisoning-prevention/
-
-- https://www.epa.gov/newsreleases/epa-strengthens-standards-protect-children-exposure-lead-paint-dust
-
-- https://data.mainepublichealth.gov/tracking/lead
 
 ## Time
 

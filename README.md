@@ -44,7 +44,7 @@ Each group will have a private space to work on the hackathon.
 | Wed | 6pm     | Pocho's      |
 | Thurs| 9:30am | Pastries in class    |
 
-Meals will be served in Chase Hall 115. Please attend common mealtimes as these will be my best chance to answer questions and make general announcements as needed. 
+Meals will be served in Chase Hall 115 other than Thursday breakfast, which will be served in class. Please attend common mealtimes as these will be my best chance to answer questions and make general announcements as needed. 
 
 Note that all dietary restrictions (lactose-free, etc.) have been accounted for in the restaurant orders.
 

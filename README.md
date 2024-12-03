@@ -96,9 +96,13 @@ Everyone should participate in the presentation and you should be prepared to an
 
 Critically: you should not just read off of your slides. You should use slides to provide visual aids and short key points that you can expand upon. If you are reading off of your slides throughout the presentation, you are not presenting effectively. You will likely lose your audience and your grade will reflect that.
 
+Please be sure a PDF of your slides and the file used to generate that PDF (an Rmarkdown script, LaTeX script, or a PowerPoint file) is in your repository.
+
 ### Paper Summary
 
 After the hackathon, you will have a week to organize your work into a 1-2 page summary of your findings and recommendations. This should be written in a way that is accessible to a lay audience and should be free of jargon.
+
+Please be sure that a PDF of the paper summary is in your repository. 
 
 ### Replicability
 

@@ -184,3 +184,7 @@ You have until 9:30am on Thursday to complete this project. Then you will presen
     - `fixest` for any regressions you may want to run
     - `pdftools` for reading in the crime data
     - `stringr` for string manipulation in the crime data
+
+## Codespaces
+
+This repository contains a Docker codespace that can be used to run R from your browser with a pre-configured environment. This is useful if you have trouble setting up your local environment or if you want to work on a Chromebook or other device that does not have R installed. See instructions [here](https://github.com/big-data-and-economics/big-data-class-materials?tab=readme-ov-file#github-codespaces).

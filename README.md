@@ -4,7 +4,11 @@ In this hack-a-thon, you will be working with a team to determine whether Lewist
 
 ## Getting Started 
 
-Each group will receive a unique copy of this repository to work on. You will need to clone this repository to your local machines and get to work. 
+Each group will receive a unique copy of this repository to work on. The repository is hosted within the course organization. You will need to clone this repository to your local machines and then push-pull as usual. 
+
+I am hosting each group's repository in the course organization to make sure that it is available to the City of Lewiston independent of your personal account. 
+
+_**Note:** In contrast to other course assignments, you will not be forking this repository to your own account. You will receive a version that is specific to your group that is tied to this course organization._
 
 ## Location
 

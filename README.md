@@ -165,7 +165,7 @@ You will be expected to provide a presentation, 1-2 page report, and GitHub repo
 - Any other visualizations or regression analysis you think will be valuable
 - Recommendations for new locations to target in the future and ways to use data to answer questions about lead abatement
 
-On Thursday, you will present these deliverables in slides. (You can use Rmarkdown or an alternative presentation method if you find that easier.) A week after the hackathon, you will turn in a written summary of your work and link to your repository to me and the City of Lewiston. Your repository should contain all necessary code and data to replicate your work with a README explaining how to do so.
+On Thursday, you will present these deliverables in slides. (You can use Rmarkdown or an alternative presentation method if you find that easier.) A week after the hackathon, you will turn in a link to your repository to me and the City of Lewiston. Your repository should contain the written summary of your work, your slides, and all necessary code and data to replicate your work with a README explaining how to do so.
 
 In all of your work, your goal is to be clear, concise, and informative. Your goal is not to describe how smart you are -- that will come through your work. 
 

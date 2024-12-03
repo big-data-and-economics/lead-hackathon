@@ -1,6 +1,6 @@
 # Lewiston Hack-a-thon
 
-In this hack-a-thon, you will be working with a team to determine whether Lewiston has targeted its Lead Abatement appropriately. There are many academic papers for you to consider in this space. 
+In this hack-a-thon, you will be working with a team to determine whether Lewiston has targeted its Lead Abatement appropriately. We have worked a bit on the incidence of Lead throughout the semester. Feel free to pull from our discussions of this work throughout the semester to contribute to your work. 
 
 ## Getting Started 
 
@@ -147,15 +147,11 @@ These data are sensitive and should be used with care. They were the product of 
 
 ## Useful links
 
-https://www.greenandhealthyhomes.org/publication/return-on-investment-calculator-for-lead-poisoning-prevention/
+- https://www.greenandhealthyhomes.org/publication/return-on-investment-calculator-for-lead-poisoning-prevention/
 
-https://www.epa.gov/newsreleases/epa-strengthens-standards-protect-children-exposure-lead-paint-dust
+- https://www.epa.gov/newsreleases/epa-strengthens-standards-protect-children-exposure-lead-paint-dust
 
-https://data.mainepublichealth.gov/tracking/lead
-
-## Teams
-
-You can pick your own teams. You can work altogether or in separate groups. 
+- https://data.mainepublichealth.gov/tracking/lead
 
 ## Time
 

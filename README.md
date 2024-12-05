@@ -248,6 +248,8 @@ After you submit everything, I will ask you all to provide an evaluation of the 
 
 I ask that you fill the form out for each member of your group. (Sadly, Google does not have dynamic forms that allow me to do this for you, so you will need to fill it out for each member of your group.)
 
+Here is the form link: https://docs.google.com/forms/d/e/1FAIpQLSf_B3rWuAf8xY4xRWY3wWUPRVDW8xJrAw7GX0Lqxp-uZKF4Pg/viewform?usp=sf_link
+
 #### Example
 
 For each group member do the following starting with yourself and then moving to the next group member:
